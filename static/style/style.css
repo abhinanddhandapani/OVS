@@ -1,0 +1,70 @@
+* {
+    background-color: antiquewhite;
+}
+
+#ovs {
+    /* ONLINE VOTING SYSTEM */
+
+    position: absolute;
+    width: 100%;
+    height: 106px;
+    left: 25%;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+    background: #F38787;
+
+}
+
+#navbar {
+    position: absolute;
+    width: 100%;
+    height: 106px;
+    left: 0px;
+    top: 0px;
+
+    background: #F38787;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #ovs {
+        /* ONLINE VOTING SYSTEM */
+        position: absolute;
+        width: 100%;
+        height: 27px;
+        left: 5px;
+        top: 24px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;
+        display: flex;
+        align-items: flex-end;
+
+        color: #000000;
+        background-color: #F38787;
+    }
+    #navbar {
+        /* Rectangle 1 */
+
+        position: absolute;
+        width: 100%;
+        height: 51px;
+        left: 0px;
+        top: 0px;
+
+        background: #F38787;
+    }
+}
